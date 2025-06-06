@@ -38,7 +38,7 @@ scheduler_project/
 
 ### 1️⃣ Open terminal and navigate to the project folder:
 
-- ```bash
+- bash
 - cd scheduler_project
 
 
@@ -55,37 +55,38 @@ scheduler_project/
 
 - Enter number of processes: 4
 
-- Process 1 Arrival Time: 0
-- Process 1 Burst Time: 5
-- Process 1 Priority (lower number = higher priority): 2
+Process 1 Arrival Time: 0
+Process 1 Burst Time: 5
+Process 1 Priority (lower number = higher priority): 2
 
-- Process 2 Arrival Time: 1
-- Process 2 Burst Time: 3
-- Process 2 Priority (lower number = higher priority): 1
+Process 2 Arrival Time: 1
+Process 2 Burst Time: 3
+Process 2 Priority (lower number = higher priority): 1
 
-- Process 3 Arrival Time: 2
-- Process 3 Burst Time: 8
-- Process 3 Priority (lower number = higher priority): 4
+Process 3 Arrival Time: 2
+Process 3 Burst Time: 8
+Process 3 Priority (lower number = higher priority): 4
 
-- Process 4 Arrival Time: 3
-- Process 4 Burst Time: 6
-- Process 4 Priority (lower number = higher priority): 3
+Process 4 Arrival Time: 3
+Process 4 Burst Time: 6
+Process 4 Priority (lower number = higher priority): 3
 
-- Choose Scheduling Algorithm:
+### Choose Scheduling Algorithm:
 1. FCFS
 2. SJF
 3. Round Robin
 4. Priority
-- Choice: 3
 
-- Enter Time Quantum: 2
-- 📤 Example Output
+#### Choice: 3
 
-- PID	AT	BT	CT	TAT	WT
-- 1	0	5	13	13	8
-- 2	1	3	9	8	5
-- 3	2	8	23	21	13
-- 4	3	6	18	15	9
+#### Enter Time Quantum: 2
+##### 📤 Example Output
+
+PID	AT	BT	CT	TAT	WT
+1	0	5	13	13	8
+2	1	3	9	8	5
+3	2	8	23	21	13
+4	3	6	18	15	9
 
 - Average Waiting Time: 8.75
 - Average Turnaround Time: 14.25
