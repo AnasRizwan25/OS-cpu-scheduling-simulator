@@ -1,4 +1,4 @@
-# 🧠 CPU Scheduling Simulator (C++)
+# CPU Scheduling Simulator (C++)
 
 A terminal-based CPU Scheduling Simulator written in C++ that supports multiple scheduling algorithms. Ideal for learning Operating System concepts and for academic projects.
 
